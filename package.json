@@ -1,0 +1,42 @@
+{
+  "name": "plustiptv",
+  "version": "1.0.0",
+  "description": "IPTV Player with Xtream Codes and M3U support",
+  "main": "index.html",
+  "scripts": {
+    "start": "node static-server.js",
+    "dev": "node static-server.js",
+    "start:all": "powershell -ExecutionPolicy Bypass -File start-all.ps1",
+    "start:api": "cd ../tvglobal && node server.js"
+  },
+  "keywords": [
+    "iptv",
+    "xtream-codes",
+    "m3u",
+    "streaming"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "m3u-parser": "^0.0.3",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
